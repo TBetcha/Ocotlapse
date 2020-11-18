@@ -770,12 +770,7 @@
         "overlay_text_template": "",
         "overlay_text_valign": "top",
         "thread_count": 1,
-        "overlay_text_color": [
-          255,
-          255,
-          255,
-          1
-        ],
+        "overlay_text_color": [255, 255, 255, 1],
         "min_fps": 2.0,
         "cleanup_after_render_complete": true,
         "guid": "694b4038-c83d-4edf-a61a-eb767854d882",
@@ -816,12 +811,7 @@
         "overlay_text_template": "",
         "overlay_text_valign": "top",
         "thread_count": 1,
-        "overlay_text_color": [
-          255,
-          255,
-          255,
-          1
-        ],
+        "overlay_text_color": [255, 255, 255, 1],
         "min_fps": 2.0,
         "cleanup_after_render_complete": true,
         "guid": "d4898ba7-8d27-4479-b7d8-34c063ae7a68",
@@ -862,12 +852,7 @@
         "overlay_text_template": "",
         "overlay_text_valign": "top",
         "thread_count": 1,
-        "overlay_text_color": [
-          255,
-          255,
-          255,
-          1
-        ],
+        "overlay_text_color": [255, 255, 255, 1],
         "min_fps": 2.0,
         "cleanup_after_render_complete": true,
         "guid": "c1f97198-49b1-4b4e-bd32-e65e470d5bca",
@@ -908,12 +893,7 @@
         "overlay_text_template": "",
         "overlay_text_valign": "top",
         "thread_count": 1,
-        "overlay_text_color": [
-          255,
-          255,
-          255,
-          1
-        ],
+        "overlay_text_color": [255, 255, 255, 1],
         "min_fps": 2.0,
         "cleanup_after_render_complete": true,
         "guid": "7db3e7d6-3fe6-4955-8419-7f63a10d0eee",
@@ -954,12 +934,7 @@
         "overlay_text_template": "",
         "overlay_text_valign": "top",
         "thread_count": 1,
-        "overlay_text_color": [
-          255,
-          255,
-          255,
-          1
-        ],
+        "overlay_text_color": [255, 255, 255, 1],
         "min_fps": 2.0,
         "cleanup_after_render_complete": true,
         "guid": "b87d49db-72de-4285-87f6-50b8044d42b6",
@@ -1216,12 +1191,7 @@
         "overlay_text_template": "",
         "overlay_text_valign": "top",
         "thread_count": 1,
-        "overlay_text_color": [
-          255,
-          255,
-          255,
-          1
-        ],
+        "overlay_text_color": [255, 255, 255, 1],
         "min_fps": 2.0,
         "cleanup_after_render_complete": true,
         "guid": "53763fb2-6bb2-4aef-a597-4455e446dfca",
@@ -1288,7 +1258,7 @@
           "snapshot_request_template": "{camera_address}?action=snapshot",
           "password": "",
           "type": null,
-          "stream_template": "/webcam/?action=stream"
+          "stream_template": "http://192.168.4.1:8080/?action=stream "
         },
         "on_after_snapshot_script": "",
         "on_print_start_script": "",
