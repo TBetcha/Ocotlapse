@@ -1436,7 +1436,7 @@ class WebcamSettings(Settings):
     def __init__(self):
         self.address = "http://192.168.4.1:8080/"
         self.snapshot_request_template = "{camera_address}?action=snapshot"
-        self.stream_template = "?action=stream"
+        self.stream_template = " http://192.168.4.1:8080/?action=stream"
         self.ignore_ssl_error = False
         self.server_type = MjpgStreamer.server_type
         self.username = ""

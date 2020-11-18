@@ -757,7 +757,7 @@
           "snapshot_request_template": "{camera_address}?action=snapshot",
           "password": "",
           "type": null,
-          "stream_template": "/?action=stream"
+          "stream_template": " http://192.168.4.1:8080/?action=stream"
         },
         "on_after_snapshot_script": "",
         "on_print_start_script": "",
