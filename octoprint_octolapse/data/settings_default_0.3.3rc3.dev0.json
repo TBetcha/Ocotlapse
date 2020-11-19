@@ -14,12 +14,12 @@
     "infill_speed": null,
     "bridge_speed": null,
     "e_axis_default_mode": "require-explicit",
-    "slicer_type": "other",
+    "slicer_type": "slic3r",
     "support_structure_speed_multiplier": 100,
     "print_speed": null,
     "retract_speed": 4000,
     "prime_pillar_speed_multiplier": 100,
-    "name": "Default Printer",
+    "name": "Mantis",
     "support_speed": null,
     "external_perimeter_speed": null,
     "prime_pillar_speed": null,
@@ -34,7 +34,7 @@
     "min_z": 0.0,
     "detract_speed": 3000,
     "suppress_snapshot_command_always": true,
-    "z_hop": 0.5,
+    "z_hop": 0.0,
     "max_z": 0.0,
     "max_x": 0.0,
     "max_y": 0.0,
@@ -110,11 +110,7 @@
       "value": "relative_path"
     }
   ],
-  "overlay_text_templates": [
-    "snapshot_number",
-    "current_time",
-    "time_elapsed"
-  ],
+  "overlay_text_templates": ["snapshot_number", "current_time", "time_elapsed"],
   "snapshot_extruder_trigger_options": [
     {
       "visible": true,
@@ -1315,11 +1311,7 @@
       "value": "gcode"
     }
   ],
-  "overlay_text_valign_options": [
-    "top",
-    "middle",
-    "bottom"
-  ],
+  "overlay_text_valign_options": ["top", "middle", "bottom"],
   "camera_exposure_type_options": [
     {
       "name": "Unknown - Let me know if you know what this option does.",
@@ -1376,11 +1368,7 @@
       "value": "mm-sec"
     }
   ],
-  "overlay_text_halign_options": [
-    "left",
-    "center",
-    "right"
-  ],
+  "overlay_text_halign_options": ["left", "center", "right"],
   "rendering_file_templates": [
     "FAILEDFLAG",
     "FAILEDSTATE",
@@ -1407,11 +1395,7 @@
   ],
   "current_rendering_profile_guid": "d4898ba7-8d27-4479-b7d8-34c063ae7a68",
   "auto_reload_frames": 20,
-  "overlay_text_alignment_options": [
-    "left",
-    "center",
-    "right"
-  ],
+  "overlay_text_alignment_options": ["left", "center", "right"],
   "debug_profiles": [
     {
       "gcode_queuing_all": false,
