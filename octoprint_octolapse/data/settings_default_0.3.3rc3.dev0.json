@@ -1,6 +1,6 @@
 {
   "auto_reload_latest_snapshot": true,
-  "current_printer_profile_guid": null,
+  "current_printer_profile_guid": "5d39248f-5e11-4c42-b7f4-810c7acc287e",
   "default_printer_profile": {
     "small_perimeter_speed": null,
     "bridging_speed_multiplier": 100,
